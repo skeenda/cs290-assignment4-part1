@@ -1,6 +1,5 @@
 <?php
 session_start();
-
 //This checks to see if the user is trying to access the file without logging in first and then if they havent
 // it returns them to the login page.
 if(!isset($_SESSION['login'])){ 
