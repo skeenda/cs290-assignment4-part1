@@ -1,5 +1,6 @@
 <?php
 
+
 $method = $_SERVER['REQUEST_METHOD'];
 
 //Exits if the user enters either
